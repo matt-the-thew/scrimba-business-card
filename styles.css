@@ -1,0 +1,52 @@
+/* 
+colors:
+#219ebc - light blue
+#023047 - dark blue
+*/
+
+body {
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+    transition: 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.mouseover-text {
+    transition: 0.3s ease;
+}
+
+.mouseover-text:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #219ebc;
+    color: #023047;
+    border-bottom: 6px solid #023047;
+    border-radius: 12px;
+}
+
+.rotating-cube {
+    width: 40px;
+    height: 40px;
+    background: #219ebc;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
